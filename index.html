@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>博客 — TimeLi</title>
+<meta name="description" content="TimeLi 的博客">
+<meta name="theme-color" content="#08080a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav__logo" href="https://timeli.cc.cd">TimeLi</a>
+  <nav class="nav__links">
+    <a href="/">博客</a>
+    <a href="https://timeli.cc.cd#about">关于</a>
+  </nav>
+</header>
+
+<main class="blog">
+  <header class="blog__head">
+    <p class="mono">TIMELI / NOTES</p>
+    <h1>博客</h1>
+    <p class="blog__desc">记录、思考，以及一些还没想明白的事。</p>
+  </header>
+
+  <!-- 文章列表：新增文章直接复制一个 <a class="post"> 块 -->
+  <section class="posts" id="posts">
+
+    <a class="post" href="/posts/hello/">
+      <time datetime="2026-10-20">2026.10.20</time>
+      <h2>第一篇文章</h2>
+      <p>从今天开始写东西。先随便说点什么。</p>
+    </a>
+
+    <a class="post" href="/posts/about-me/">
+      <time datetime="2026-10-20">2026.10.20</time>
+      <h2>关于我</h2>
+      <p>我是谁，我在做什么，我为什么开这个博客。</p>
+    </a>
+
+  </section>
+</main>
+
+<footer class="footer">
+  <span class="mono">© <span id="year">2026</span> TimeLi</span>
+  <span class="mono">Built on Cloudflare Pages</span>
+</footer>
+
+<script src="/assets/main.js" defer></script>
+</body>
+</html>
